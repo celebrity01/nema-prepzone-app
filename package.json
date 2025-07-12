@@ -5,11 +5,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "master -d build"
+   "dev": "vite",
+   "build": "vite build",
+   "preview": "vite preview",
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist"
+}
   },
   "dependencies": {
     "@google/genai": "^1.9.0",
