@@ -1,0 +1,6 @@
+{
+  "name": "NEMA PrepZone: An AI-Powered Disaster Safety Game",
+  "description": "NEMA PrepZone is a simple, web-based interactive game designed to test and improve a user's knowledge of disaster preparedness. The user is presented with realistic emergency scenarios, and they must make choices to ensure their safety. The core of the game is powered by the Gemini API, which generates dynamic scenarios, questions, and illustrative images on the fly, making each playthrough unique.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
