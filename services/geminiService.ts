@@ -67,7 +67,7 @@ const generateBriefingAndQuestion = async (
     const prompt = `Create the first challenging scenario for '${categoryTitle}'. Provide a brief, immersive setup description and the first question with choices and feedback.`;
 
     const response: GenerateContentResponse = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: prompt,
       config: {
         systemInstruction: getSystemInstruction(),
@@ -119,7 +119,7 @@ const generateQuestion = async (
       : `Create the first challenging scenario question for: '${categoryTitle}'.`;
 
     const response: GenerateContentResponse = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: prompt,
       config: {
         systemInstruction: getSystemInstruction(),

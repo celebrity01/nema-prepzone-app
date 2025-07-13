@@ -350,10 +350,7 @@ const GameScreen: React.FC<GameScreenProps> = ({
 
       <div className="text-center mt-8">
         <button
-          onClick={() => {
-            console.log("End Mission button clicked");
-            onEndGame();
-          }}
+          onClick={onEndGame}
           className="btn-secondary"
           style={{ pointerEvents: "auto", position: "relative", zIndex: 10 }}
         >
